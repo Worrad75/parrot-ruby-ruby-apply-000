@@ -3,9 +3,12 @@
 
 
 def parrot(str)
+  
   if !str
-    str ||= "Squawk!"
-    puts str
-    str
-  else
+    str = "Squawk!"
+  end
+  
+  puts str
+  str
+    
 end
