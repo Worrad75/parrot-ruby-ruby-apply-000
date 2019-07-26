@@ -3,7 +3,7 @@
 
 
 def parrot(str)
-  str ||= "Sq"
+  str ||= "Squawk!"
   puts str
   str
 end
