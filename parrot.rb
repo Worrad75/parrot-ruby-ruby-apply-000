@@ -3,8 +3,7 @@
 
 
 def parrot(str)
-  
-  
+  str ||= "Sq"
   puts str
   str
 end
